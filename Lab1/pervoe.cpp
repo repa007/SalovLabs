@@ -9,6 +9,6 @@ int main() {
 	cout << "print integer\n";
 	cin >> d;
 	int Result = 0;
-	Result = a + c ^ b - d; //сначала возведение в степень
+	Result = a + c ^ b - d; //exponentiation at first
 	cout << "\n\n(>^.^)>  " << Result << endl << endl << endl << endl;
 }
