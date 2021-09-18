@@ -4,16 +4,16 @@ using namespace std;
 
 int main() {
 
-	//объявляем переменные
+	//variable initializing
 	int a = 6;
 	float b = 16.565;
 	string c = "5.3";
 
 
-	//преобразуем типы...
+	//types converting
 	a = double(a);
 	b = double(b);
-	double cc = stod(c); //зафигачили строку как дабл
+	double cc = stod(c); //string to double
 	double Result = a + cc / b;
 
 	cout << "(>^.^)> " << Result << endl << endl << endl;
