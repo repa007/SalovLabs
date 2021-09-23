@@ -9,12 +9,9 @@ int main() {
 	float b = 16.565;
 	string c = "5.3";
 
-
 	//types converting
-	a = double(a);
-	b = double(b);
 	double cc = stod(c); //string to double
-	double Result = a + cc / b;
+	double Result = double(a) + cc / b;
 
 	cout << "(>^.^)> " << Result << endl << endl << endl;
 }
